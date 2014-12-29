@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FoodSource>
+  <Restraunt Name="Hot Restraunt">
+    <Category Name="Starter Foods">
+      <Food Name ="Soup" Price="5200"/>
+      <Food Name ="Salad" Price="4500"/>
+      <Food Name ="Mushroom" Price="6000"/>
+    </Category>
+    <Category Name="Drinks Foods">
+      <Food Name ="Coca" Price="5200"/>
+      <Food Name ="Pepsi" Price="4500"/>
+      <Food Name ="Malt" Price="6000"/>
+    </Category>
+    <Category Name="Fast Foods">
+      <Food Name ="Pizza" Price="5200"/>
+      <Food Name ="Sandwith" Price="4500"/>
+      <Food Name ="Hamburger" Price="6000"/>
+    </Category>
+  </Restraunt>
+  <Restraunt Name="Perperook Restraunt">
+    <Category Name="Starter Foods">
+      <Food Name ="Soup" Price="5200"/>
+      <Food Name ="Salad" Price="4500"/>
+      <Food Name ="Mushroom" Price="6000"/>
+    </Category>
+    <Category Name="Drinks Foods">
+      <Food Name ="Coca" Price="5200"/>
+      <Food Name ="Pepsi" Price="4500"/>
+      <Food Name ="Malt" Price="6000"/>
+    </Category>
+    <Category Name="Fast Foods">
+      <Food Name ="Pizza" Price="5200"/>
+      <Food Name ="Sandwith" Price="4500"/>
+      <Food Name ="Hamburger" Price="6000"/>
+    </Category>
+  </Restraunt>
+  <Restraunt Name="هات">
+    <Category Name="پیتزاها">
+      <Food Name ="Soup" Price="5200"/>
+      <Food Name ="Salad" Price="4500"/>
+      <Food Name ="Mushroom" Price="6000"/>
+    </Category>
+    <Category Name="نوشیدنی‌ها">
+      <Food Name ="Coca" Price="5200"/>
+      <Food Name ="Pepsi" Price="4500"/>
+      <Food Name ="Malt" Price="6000"/>
+    </Category>
+    <Category Name="Fast Foods">
+      <Food Name ="Pizza" Price="5200"/>
+      <Food Name ="Sandwith" Price="4500"/>
+      <Food Name ="Hamburger" Price="6000"/>
+    </Category>
+  </Restraunt>
+</FoodSource>

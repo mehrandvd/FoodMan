@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMan", "FoodMan\FoodMan.csproj", "{B3C29CBA-FBD9-40D6-8F8B-38957107E54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMan.Core", "FoodMan.Core\FoodMan.Core.csproj", "{57D37171-713C-4333-8041-0DF3BBA3F7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMan.FoodSourceProviders.RawXml", "FoodMan.FoodSourceProviders.RawXml\FoodMan.FoodSourceProviders.RawXml.csproj", "{80D9E6FE-3314-4D56-9170-9D722C20BC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMan.FoodSourceProviders.ZoodFood", "FoodMan.FoodSourceProviders.ZoodFood\FoodMan.FoodSourceProviders.ZoodFood.csproj", "{97FF46A5-0CE6-4711-950E-2C4EDF46141B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMan.PowerShell", "FoodMan.PowerShell\FoodMan.PowerShell.csproj", "{FF644807-5A72-44E0-8ED7-B3B67B426EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B393FF4B-3DAB-4FFB-9648-2D68E2F03FB9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMan.PowerShell.Test", "FoodMan.PowerShell.Test\FoodMan.PowerShell.Test.csproj", "{9531D128-0954-4176-B188-71582BB5FC8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodMan.FoodSourceProviders.ZoodFood.Test", "FoodMan.FoodSourceProviders.ZoodFood.Test\FoodMan.FoodSourceProviders.ZoodFood.Test.csproj", "{288A3C42-C4AF-4CDB-AF50-0910D03F7DDC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs19
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FoodMan\\FoodMan.csproj
+		SccProjectName1 = FoodMan
+		SccLocalPath1 = FoodMan
+		SccProjectUniqueName2 = FoodMan.Core\\FoodMan.Core.csproj
+		SccProjectName2 = FoodMan.Core
+		SccLocalPath2 = FoodMan.Core
+		SccProjectUniqueName3 = FoodMan.FoodSourceProviders.RawXml\\FoodMan.FoodSourceProviders.RawXml.csproj
+		SccProjectName3 = FoodMan.FoodSourceProviders.RawXml
+		SccLocalPath3 = FoodMan.FoodSourceProviders.RawXml
+		SccProjectUniqueName4 = FoodMan.FoodSourceProviders.ZoodFood\\FoodMan.FoodSourceProviders.ZoodFood.csproj
+		SccProjectName4 = FoodMan.FoodSourceProviders.ZoodFood
+		SccLocalPath4 = FoodMan.FoodSourceProviders.ZoodFood
+		SccProjectUniqueName5 = FoodMan.PowerShell\\FoodMan.PowerShell.csproj
+		SccProjectName5 = FoodMan.PowerShell
+		SccLocalPath5 = FoodMan.PowerShell
+		SccProjectUniqueName6 = FoodMan.PowerShell.Test\\FoodMan.PowerShell.Test.csproj
+		SccProjectName6 = FoodMan.PowerShell.Test
+		SccLocalPath6 = FoodMan.PowerShell.Test
+		SccProjectUniqueName7 = FoodMan.FoodSourceProviders.ZoodFood.Test\\FoodMan.FoodSourceProviders.ZoodFood.Test.csproj
+		SccProjectName7 = FoodMan.FoodSourceProviders.ZoodFood.Test
+		SccLocalPath7 = FoodMan.FoodSourceProviders.ZoodFood.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3C29CBA-FBD9-40D6-8F8B-38957107E54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C29CBA-FBD9-40D6-8F8B-38957107E54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C29CBA-FBD9-40D6-8F8B-38957107E54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C29CBA-FBD9-40D6-8F8B-38957107E54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D37171-713C-4333-8041-0DF3BBA3F7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D37171-713C-4333-8041-0DF3BBA3F7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D37171-713C-4333-8041-0DF3BBA3F7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D37171-713C-4333-8041-0DF3BBA3F7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D9E6FE-3314-4D56-9170-9D722C20BC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D9E6FE-3314-4D56-9170-9D722C20BC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D9E6FE-3314-4D56-9170-9D722C20BC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D9E6FE-3314-4D56-9170-9D722C20BC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FF46A5-0CE6-4711-950E-2C4EDF46141B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FF46A5-0CE6-4711-950E-2C4EDF46141B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FF46A5-0CE6-4711-950E-2C4EDF46141B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FF46A5-0CE6-4711-950E-2C4EDF46141B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF644807-5A72-44E0-8ED7-B3B67B426EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF644807-5A72-44E0-8ED7-B3B67B426EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF644807-5A72-44E0-8ED7-B3B67B426EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF644807-5A72-44E0-8ED7-B3B67B426EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9531D128-0954-4176-B188-71582BB5FC8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9531D128-0954-4176-B188-71582BB5FC8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9531D128-0954-4176-B188-71582BB5FC8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9531D128-0954-4176-B188-71582BB5FC8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288A3C42-C4AF-4CDB-AF50-0910D03F7DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288A3C42-C4AF-4CDB-AF50-0910D03F7DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288A3C42-C4AF-4CDB-AF50-0910D03F7DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288A3C42-C4AF-4CDB-AF50-0910D03F7DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
